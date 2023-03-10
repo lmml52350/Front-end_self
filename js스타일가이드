@@ -1,0 +1,75 @@
+간단한 문은 항상 세미콜론으로 끝냅니다.
+const cars = ["Volvo", "Saab", "Fiat"];
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+
+복잡한(복합) 문에 대한 일반 규칙:
+
+여는 괄호를 첫 번째 줄 끝에 놓습니다.
+여는 괄호 앞에 공백을 하나 사용하십시오.
+선행 공백 없이 새 줄에 닫는 대괄호를 넣습니다.
+복잡한 명령문을 세미콜론으로 끝내지 마십시오
+function toCelsius(fahrenheit) {
+  return (5 / 9) * (fahrenheit - 32);
+}
+
+for (let i = 0; i < 5; i++) {
+  x += i;
+}
+
+if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+
+개체 정의에 대한 일반 규칙:
+
+개체 이름과 같은 줄에 여는 괄호를 배치합니다.
+각 속성과 해당 값 사이에 콜론과 하나의 공백을 사용합니다.
+숫자 값이 아닌 문자열 값 주위에 따옴표를 사용하십시오.
+마지막 속성-값 쌍 뒤에 쉼표를 추가하지 마십시오.
+선행 공백 없이 새 줄에 닫는 괄호를 배치합니다.
+항상 개체 정의를 세미콜론으로 끝냅니다.
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue"
+};
+
+짧은 개체는 다음과 같이 속성 사이에만 공백을 사용하여 한 줄에 압축하여 작성할 수 있습니다.
+
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+
+가독성을 위해 80자보다 긴 행은 피하십시오.
+
+JavaScript 문이 한 줄에 맞지 않으면 구분하기 가장 좋은 위치는 연산자나 쉼표 뒤입니다.
+
+명명 규칙
+모든 코드에 대해 항상 동일한 명명 규칙을 사용하십시오. 예를 들어:
+
+camelCase 로 작성된 변수 및 함수 이름
+대문자 로 작성된 전역 변수 (그렇지 않지만 매우 일반적임)
+대문자 로 작성된 상수(예: PI)
+변수 이름에 hyp-hens , camelCase 또는 under_scores 를 사용해야 합니까 ?
+
+이것은 프로그래머들이 자주 논의하는 질문입니다. 답은 누구에게 물어보느냐에 따라 다릅니다.
+
+HTML 및 CSS의 하이픈:
+
+HTML5 속성은 data-(data-quantity, data-price)로 시작할 수 있습니다.
+
+CSS는 속성 이름(글꼴 크기)에 하이픈을 사용합니다.
+
+
+외부 스크립트를 로드하는 데 간단한 구문을 사용합니다(type 특성은 필요하지 않음).
+<script src="myscript.js"></script>

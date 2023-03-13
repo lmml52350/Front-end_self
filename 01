@@ -11,3 +11,6 @@ function getwice(x){
 }
 console.log(`${mynumber}의 두배는 ${getwice(mynumber)}입니다`)
 
+
+null =  의도적인 없음
+undefined = 처음부터 없음

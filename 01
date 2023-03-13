@@ -2,3 +2,12 @@
 || = or 
 ! = 반대
 typeof 유형
+
+
+let mynumber = 3
+
+function getwice(x){
+    return x * 2
+}
+console.log(`${mynumber}의 두배는 ${getwice(mynumber)}입니다`)
+
